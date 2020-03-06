@@ -19,5 +19,9 @@
                 description="MyAction">
             <add-to-group group-id="ProjectViewPopupMenu" anchor="after" relative-to-action="WeighingNewGroup"/>
         </action>
+        <action id="me.dustin.test.TestNotification" class="me.dustin.test.TestNotification" text="TestPopupAction">
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="after"
+                          relative-to-action="me.dustin.action.MyAction"/>
+        </action>
     </actions>
 </idea-plugin>
