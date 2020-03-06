@@ -15,7 +15,8 @@
 
     <actions>
         <!-- Add your actions here -->
-        <action id="me.dustin.action.MyAction" class="me.dustin.action.MyAction" text="MyAction" description="MyAction">
+        <action id="me.dustin.action.NewTemplateAction" class="me.dustin.action.NewTemplateAction" text="MyAction"
+                description="MyAction">
             <add-to-group group-id="ProjectViewPopupMenu" anchor="after" relative-to-action="WeighingNewGroup"/>
         </action>
     </actions>

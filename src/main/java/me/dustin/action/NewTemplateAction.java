@@ -5,7 +5,7 @@ import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.ui.Messages;
 import org.jetbrains.annotations.NotNull;
 
-public class MyAction extends AnAction {
+public class NewTemplateAction extends AnAction {
     @Override
     public void actionPerformed(@NotNull AnActionEvent e) {
         Messages.showMessageDialog("Hello World !", "Information", Messages.getInformationIcon());
