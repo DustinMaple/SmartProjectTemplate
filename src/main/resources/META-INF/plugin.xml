@@ -1,0 +1,22 @@
+<idea-plugin>
+    <id>me.dustin.SmartProjectTemplate</id>
+    <name>SmartProjectTemplate</name>
+    <vendor email="" url=""/>
+
+    <description>This plug-in will provide the ability to customize and create templates.</description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="me.dustin.action.MyAction" class="me.dustin.action.MyAction" text="MyAction" description="MyAction">
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="after" relative-to-action="WeighingNewGroup"/>
+        </action>
+    </actions>
+</idea-plugin>
